@@ -28,6 +28,7 @@ Supports:
     embedded seatd for standalone operation
 
 %package -n     %{devname}
+Requires:	%{libname} = %{EVRD}
 Summary:        Development files for %{name}
 
 %description -n %{devname}

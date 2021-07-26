@@ -38,7 +38,7 @@ Development files for %{name}.
 %autosetup -p1
 
 %build
-%meson
+%meson -Dlogind=enabled
 %meson_build
 
 %install

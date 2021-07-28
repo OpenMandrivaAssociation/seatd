@@ -12,6 +12,7 @@ URL:            https://git.sr.ht/~kennylevinsen/seatd
 Source0:	https://git.sr.ht/~kennylevinsen/seatd/archive/%{version}.tar.gz
 BuildRequires:	meson
 BuildRequires:	scdoc
+BuildRequires:	pkgconfig(libsystemd)
 
 
 %description

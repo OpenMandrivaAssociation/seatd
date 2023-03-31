@@ -5,7 +5,7 @@
 
 Name:           seatd
 Version:	0.5.0
-Release:	1
+Release:	2
 Summary:        A minimal seat management daemon and library
 License:        MIT
 URL:            https://git.sr.ht/~kennylevinsen/seatd

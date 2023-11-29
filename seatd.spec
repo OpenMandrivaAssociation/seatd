@@ -1,10 +1,11 @@
 %define major 1
-%define libname %mklibname seat %{major}
+%define oldlibname %mklibname seat 1
+%define libname %mklibname seat
 %define devname %mklibname -d seat
 
 Summary:	A minimal seat management daemon and library
 Name:		seatd
-Version:	0.7.0
+Version:	0.8.0
 Release:	1
 License:	MIT
 Group:		System/Servers
@@ -22,6 +23,7 @@ Nothing more, nothing less. Depends only on libc.
 %package -n %{libname}
 Summary:	Library files for %{name}
 Group:		System/Libraries
+%rename		%{oldlibname}
 
 %description -n %{libname}
 A seat management library allowing applications to use whatever seat

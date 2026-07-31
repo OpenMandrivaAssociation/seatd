@@ -5,7 +5,7 @@
 
 Summary:	A minimal seat management daemon and library
 Name:		seatd
-Version:	0.9.1
+Version:	0.9.3
 Release:	1
 License:	MIT
 Group:		System/Servers
